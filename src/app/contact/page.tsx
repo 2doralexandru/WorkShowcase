@@ -62,11 +62,11 @@ export default function ContactPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold mt-0 md:mt-20 mb-6 text-white">
-            Get In Touch
+            Let's get in touch!
           </h1>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from
-            you. Let's create something amazing together!
+            Have a vision worth capturing? 
+            Let’s turn it into something memorable.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ export default function ContactPage() {
           >
             <GlassmorphismCard className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-white">
-                Contact Information
+                Contact Info.
               </h3>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
@@ -88,12 +88,12 @@ export default function ContactPage() {
                     <Mail className="text-white" size={20} />
                   </div>
                   <div>
-                    <p className="text-gray-400 text-sm">Email</p>
+                    <p className="text-gray-400 text-sm">Personal Email</p>
                     <a
-                      href="mailto:contact.niloybhowmick@gmail.com"
+                      href="mailto:2dor.alexandrumihai@gmail.com"
                       className="text-white hover:text-blue-400 transition-colors"
                     >
-                      contact.niloybhowmick@gmail.com
+                      2dor.alexandrumihai@gmail.com
                     </a>
                   </div>
                 </div>
@@ -105,12 +105,12 @@ export default function ContactPage() {
                   <div>
                     <p className="text-gray-400 text-sm">WhatsApp</p>
                     <a
-                      href="https://wa.me/+8801580385556"
+                      href="https://wa.me/+40761235837"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white hover:text-green-400 transition-colors"
                     >
-                      +88 (015) 803-85556
+                      +40 761 235 837
                     </a>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Location</p>
-                    <p className="text-white">Available Worldwide (Remote)</p>
+                    <p className="text-white">Available Worldwide or Remote</p>
                   </div>
                 </div>
 
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Availability</p>
-                    <p className="text-white">Flexible with time zones</p>
+                    <p className="text-white">Flexible with time zones (confirmation needed)</p>
                   </div>
                 </div>
               </div>
@@ -139,15 +139,15 @@ export default function ContactPage() {
 
             <GlassmorphismCard className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-white">
-                Why Choose Me?
+                Why Me?
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="bg-blue-600 w-2 h-2 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-medium text-white">Quick Turnaround</h4>
+                    <h4 className="font-medium text-white">Reliable & Professional</h4>
                     <p className="text-gray-400 text-sm">
-                      Fast delivery without compromising quality
+                      Fast delivery without compromising on quality
                     </p>
                   </div>
                 </div>
@@ -155,10 +155,10 @@ export default function ContactPage() {
                   <div className="bg-green-600 w-2 h-2 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-medium text-white">
-                      Professional Quality
+                      Result Oriented
                     </h4>
                     <p className="text-gray-400 text-sm">
-                      Cinematic edits with attention to detail
+                      Focused on the final product that meets your vision and goals
                     </p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function ContactPage() {
                   <div className="bg-purple-600 w-2 h-2 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-medium text-white">
-                      Clear Communication
+                      Upfront Communication
                     </h4>
                     <p className="text-gray-400 text-sm">
                       Regular updates and transparent process
@@ -236,12 +236,14 @@ export default function ContactPage() {
                     className="w-full bg-gray-800/50 border border-gray-600 text-white rounded-md px-3 py-2"
                   >
                     <option value="">Select project type</option>
+                    <option value="wedding">Wedding/Personal Event</option>
                     <option value="youtube">YouTube Video</option>
                     <option value="social-media">Social Media Content</option>
                     <option value="promo">Promotional Video</option>
                     <option value="tutorial">Tutorial/Course</option>
                     <option value="documentary">Documentary</option>
                     <option value="animation">Logo Animation</option>
+                    <option value="music">Music Video</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -258,7 +260,7 @@ export default function ContactPage() {
                     name="timeline"
                     type="text"
                     className="bg-gray-800/50 border-gray-600 text-white"
-                    placeholder="e.g., 1 week, ASAP"
+                    placeholder="Expected timeline / Event date (e.g. 2 weeks / 20 June 2026)"
                   />
                 </div>
 
@@ -274,7 +276,7 @@ export default function ContactPage() {
                     name="message"
                     required
                     rows={6}
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me more about your project..."
                     className="bg-gray-800/50 border-gray-600 text-white resize-none"
                   />
                 </div>
@@ -290,16 +292,16 @@ export default function ContactPage() {
 
               <div className="mt-6 pt-6 border-t border-gray-700">
                 <p className="text-gray-400 text-sm text-center">
-                  Prefer to chat directly? Reach out on{" "}
+                  Prefer to chat? You can find me on{" "}
                   <a
-                    href="https://wa.me/+8801580385556"
+                    href="https://wa.me/+40761235837"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-400 hover:text-green-300"
                   >
                     WhatsApp
                   </a>{" "}
-                  for instant communication.
+                  for quicker communication.
                 </p>
               </div>
             </GlassmorphismCard>

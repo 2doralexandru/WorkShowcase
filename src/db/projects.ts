@@ -2,20 +2,21 @@ import { VideoProject } from "@/types/videos";
 
 export const allVideoProjects: VideoProject[] = [
   {
-    id: "rVVeLdouViU",
-    video_title: "একজন ফেসবুক ইঞ্জিনিয়ারের রিজিউমি কেমন হয়?",
-    video_description: `How to Build Your Perfect Resume: Learn from a FAANG Employee Example! Are you ready to take your career to new heights and secure your dream job at a top tech company? Join us on this exclusive journey inside the mind of a FAANG employee as we unveil the secrets of their perfect resume! In this eye-opening video, you'll discover the exact strategies and tips used by the industry's finest to stand out from the crowd and impress recruiters.`,
-    tags: ["Resume Tips", "FAANG Career", "Job Preparation", "Career Advice"],
-    cover_image: "rVVeLdouViU",
-    publish_date: "2024-08-04",
-    client_name: "Stack Learner",
+    id: "DXfz6WPhWy8",
+    video_title: "Transfagarasan Drone Video - Barajul Vidraru",
+    video_description: `Wonderful mountains, landscapes and impressions from Transfagarasan ! Free film project in Romania. 
+                        Music: "Venus Descending" by Hector Posser - Epicdemic Sound.`,
+    tags: ["Drone Video", "Transfagarasan", "Romania", "Cinematic", "Travel", "Nature"],
+    cover_image: "",
+    publish_date: "2020-11-25",
+    client_name: "Tudor Alexandru",
     client_image: "/companies/sl-logo.png",
     client_feedback: "",
-    video_link: "https://youtu.be/rVVeLdouViU?si=LwWPmI4F34mwLNw8",
+    video_link: "https://youtu.be/DXfz6WPhWy8",
     project_images: [],
-    category: ["Talking Head", "Explainer"],
-    duration: "6:32",
-    software_used: ["DaVinci Resolve"],
+    category: ["Cinematic"],
+    duration: "3:01",
+    software_used: ["Premiere Pro", "After Effects"],
   },
   {
     id: "JSZmQxg3fos",

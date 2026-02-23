@@ -16,27 +16,22 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
+      href: "https://www.youtube.com/@tudoralexandru2743",
       icon: Youtube,
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://instagram.com/2dor.alexandru",
       icon: Instagram,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
+      href: "https://www.linkedin.com/in/tudor-alexandru-a3730a273/",
       icon: Linkedin,
     },
     {
-      name: "Twitter",
-      href: "#",
-      icon: Twitter,
-    },
-    {
       name: "Email",
-      href: "mailto:contact.niloybhowmick@gmail.com",
+      href: "mailto:2dor.alexandrumihai@gmail.com",
       icon: Mail,
     },
   ];
@@ -48,12 +43,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Niloy Bhowmick
+              Tudor Alexandru
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Video Editor and Motion Graphics Designer passionate about
-              creating visual stories with style, precision, and cinematic
-              magic.
+              Videographer and Video Editor shaping stories with purpose, precision, and cinematic perspective.
             </p>
           </div>
 
@@ -93,7 +86,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="space-y-6">
             <h4 className="font-semibold text-white tracking-wide uppercase text-xs opacity-70">
-              Connect With Me
+              Let's Connect!
             </h4>
             <div className="flex space-x-5">
               {socialLinks.map((link) => {
@@ -108,7 +101,7 @@ export default function Footer() {
                     aria-label={link.name}
                   >
                     <div className="p-3 rounded-full bg-white/5 border border-white/10 group-hover:bg-blue-600/20 group-hover:border-blue-500/50 transition-all duration-300">
-                      <Icon size={20} className="text-gray-400 group-hover:text-blue-400 transition-colors" />
+                      <Icon size={15} className="text-gray-400 group-hover:text-blue-400 transition-colors" />
                     </div>
                   </a>
                 );
@@ -119,14 +112,14 @@ export default function Footer() {
 
         <div className="border-t border-white/5 mt-16 pt-8 text-center">
           <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
-            Made with <Heart className="text-red-500 fill-red-500/20" size={14} /> by{" "}
+            All rights reserved.{" "}
             <a
-              href="https://www.linkedin.com/in/mdmarufsarker/"
+              href="https://www.linkedin.com/in/tudor-alexandru-a3730a273/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors underline decoration-dotted underline-offset-4"
             >
-              Md. Maruf Sarker
+              Tudor Alexandru™
             </a>{" "}
             © {currentYear}
           </p>

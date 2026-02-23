@@ -32,10 +32,10 @@ export default function AboutPage() {
           className="text-center mb-8"
         >
           <h1 className="text-4xl md:text-6xl font-bold mt-0 md:mt-20 mb-3 text-white tracking-tight">
-            The Man Behind the <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Magic</span>
+            Who is behind the <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Lens?</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Visual Storyteller. Motion Graphics Artist. Problem Solver.
+            Not just a videographer. A storyteller obsessed with light, rhythm, and real moments.
           </p>
         </motion.div>
 
@@ -53,8 +53,8 @@ export default function AboutPage() {
               header={
                 <div className="relative w-full h-full min-h-[28rem] md:min-h-[16rem] rounded-xl overflow-hidden group-hover/bento:scale-[1.02] transition-transform duration-500">
                   <Image
-                    src="/niloybhowmick.png"
-                    alt="Niloy"
+                    src="/Profile.JPG"
+                    alt="Tudor"
                     fill
                     className="object-cover object-top grayscale-[0] hover:grayscale-0 transition-all duration-500"
                   />
@@ -68,12 +68,12 @@ export default function AboutPage() {
                       transition={{ delay: 0.2 }}
                       className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter"
                     >
-                      NILOY<br />
-                      <span className="text-blue-500">BHOWMICK</span>
+                      TUDOR<br />
+                      <span className="text-blue-500">ALEXANDRU</span>
                     </motion.div>
                     <div className="h-1 w-16 md:w-20 bg-purple-500 mt-4 rounded-full" />
                     <p className="text-gray-300 mt-4 text-xs md:text-sm font-medium tracking-wide uppercase">
-                      Professional Video Editor & Motion Designer
+                      Professional Videographer & Editor
                     </p>
                   </div>
                 </div>
@@ -92,12 +92,12 @@ export default function AboutPage() {
           >
             <BentoGridItem
               title="Experience"
-              description="Years of professional grinding."
+              description="Hundreds of projects, in more than 8 years in the game."
               header={
                 <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-black to-neutral-900 border border-white/10 flex flex-col items-center justify-center relative overflow-hidden group-hover:border-emerald-500/30 transition-colors py-8 md:py-0">
                   <div className="absolute inset-0 bg-emerald-500/5 blur-3xl rounded-full" />
-                  <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">5+</span>
-                  <div className="text-emerald-500/50 text-xs font-mono uppercase tracking-[0.2em] z-10 mt-2">Years Active</div>
+                  <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">8+</span>
+                  <div className="text-emerald-500/50 text-xs font-mono uppercase tracking-[0.2em] z-10 mt-2">Years of Activity</div>
                 </div>
               }
               className="h-full"
@@ -116,7 +116,7 @@ export default function AboutPage() {
           >
             <BentoGridItem
               title="Global Reach"
-              description="Remote ready."
+              description="Remote ready - No place is too far for a great story."
               header={
                 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-[#0a0a0a] overflow-hidden flex items-center justify-center border border-white/5">
                   {/* Abstract grid lines for map feel */}
@@ -127,7 +127,7 @@ export default function AboutPage() {
                       <MapPin className="text-blue-500" size={32} />
                     </div>
                     <div className="mt-2 bg-blue-500/20 backdrop-blur text-blue-300 px-3 py-1 rounded text-xs font-bold border border-blue-500/30">
-                      WORLDWIDE
+                      WORLDWIDE LIKE THE WEB   
                     </div>
                   </div>
                 </div>
@@ -145,13 +145,13 @@ export default function AboutPage() {
             className="md:col-span-2"
           >
             <BentoGridItem
-              title="Philosophy"
-              description="Story is King."
-              header={
+              title="My Philosophy"
+              description="Emotion is King - In a world drowning in AI slop"
+                header={
                 <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-900 to-black border border-white/5 p-6 flex items-center">
                   <Quote className="text-white/10 absolute top-4 right-4" size={48} />
                   <p className="text-gray-300 italic text-sm md:text-base leading-relaxed relative z-10">
-                    "I don't just cut footage; I construct feelings. Every frame must earn its place on the timeline, serving the narrative above all else."
+                    "I believe great videos don’t just show moments — they make you feel them. In a world of AI slop and infinite content, I choose intention over automation. Human over synthetic. Story over spectacle."
                   </p>
                 </div>
               }
@@ -168,13 +168,13 @@ export default function AboutPage() {
             className="md:col-span-1"
           >
             <BentoGridItem
-              title="Connect"
-              description=""
+              title="Get In Touch"
+              description="Contact me on socials"
               header={
                 <div className="flex flex-1 h-full w-full items-center justify-between px-6 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-xl border border-white/5 py-4 md:py-0 min-h-[5rem]">
-                  <a href="https://linkedin.com/in/niloy-bhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-[#0077b5] hover:scale-110 transition-all duration-300 text-white"><Linkedin size={20} /></a>
-                  <a href="https://instagram.com/its.niloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
-                  <a href="https://youtube.com/@itsniloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-red-600 hover:scale-110 transition-all duration-300 text-white"><Youtube size={20} /></a>
+                  <a href="https://linkedin.com/in/tudor-alexandru-a3730a273" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-[#0077b5] hover:scale-110 transition-all duration-300 text-white"><Linkedin size={20} /></a>
+                  <a href="https://www.instagram.com/2dor.alexandru/" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
+                  <a href="https://www.youtube.com/@tudoralexandru2743" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-red-600 hover:scale-110 transition-all duration-300 text-white"><Youtube size={20} /></a>
                 </div>
               }
               className="h-full"
@@ -192,7 +192,7 @@ export default function AboutPage() {
           className="mb-20"
         >
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Trusted By</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Different Types of Videos</h2>
             <div className="h-1 w-20 bg-blue-500 mx-auto rounded-full" />
           </div>
 
@@ -221,9 +221,9 @@ export default function AboutPage() {
         </motion.div>
 
         <CTASection
-          title="Ready to Work Together?"
-          description="Let's make something that breaks the internet."
-          buttonText="Start Collaboration"
+          title="Willing to work together?"
+          description="Let's make something great. I’m just a message away."
+          buttonText="Inquire Now"
           href="/contact"
         />
       </div>
