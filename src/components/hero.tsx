@@ -36,13 +36,13 @@ export default function Hero() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className="inline-block mb-6"
                 >
-                    <div className="px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs font-medium text-blue-200 tracking-widest uppercase">
+                    <div className="px-5 py-1.5 rounded-full border border-pink/100 bg-white/5 backdrop-blur-md text-xs font-medium text-blue-200 tracking-widest uppercase">
                         Available for Hire
                     </div>
                 </motion.div>
 
                 {/* Main Title - Split for animation */}
-                <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-white mb-8 leading-[0.9]">
+                <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tighter text-white mb-8 leading-[0.9]">
                     <motion.span
                         initial={{ opacity: 0, y: 50, rotate: 2 }}
                         animate={{ opacity: 1, y: 0, rotate: 0 }}
@@ -66,7 +66,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
-                    className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed mb-12"
+                    className="text-sm md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed mb-12"
                 >
                     Romanian Videographer turning raw footage into visual stories with style, precision, and a touch of <span className="text-white font-medium">cinematic magic</span>.
                 </motion.p>
@@ -76,7 +76,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.8 }}
-                    className="flex flex-col sm:flex-row items-center justify-center gap-6"
+                    className="flex flex-col sm:flex-row items-center justify-center gap-8"
                 >
                     <MagneticButton>
                         <a
